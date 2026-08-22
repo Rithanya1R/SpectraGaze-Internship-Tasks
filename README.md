@@ -66,7 +66,8 @@ This repository hosts development deliverables, environment validations, and gra
 3. **Resource Optimization:** Integrates a localized **Wait (ms)** block to protect the CPU from processing spikes.
 
 #### System Execution Layout:
-![Ramp Calibration Layout](Spectragaze_Task_Screenshots/Ramp_Calibration_Logic.png)
+![Ramp Calibration Layout](Spectragaze_Task_Screenshots/Ramp_Calibration.png)
+![Ramp Calibration Layout](Spectragaze_Task_Screenshots/Ramp_Calibration_2.png)
 
 ---
 
@@ -94,7 +95,7 @@ This repository hosts development deliverables, environment validations, and gra
 - Wired a front-panel mechanical **STOP Button** straight into the red loop conditional terminal to release CPU threads safely upon user termination.
 
 #### System Execution Layout:
-![Understanding Loops Layout](Spectragaze_Task_Screenshots/Understanding_Loops.png)
+![Understanding Loops Layout](Spectragaze_Task_Screenshots/Loops.png)
 
 ---
 
@@ -107,7 +108,7 @@ This repository hosts development deliverables, environment validations, and gra
 - When set to `True`, the program executes the baseline temperature formula pipeline cleanly. When toggled, alternative structural branches are activated to handle fallback logic paths safely.
 
 #### System Execution Layout:
-![Understanding Case Structure Layout](Spectragaze_Task_Screenshots/Understanding_Case_Structure.png)
+![Understanding Case Structure Layout](Spectragaze_Task_Screenshots/Case%20Structure.png)
 
 ---
 
@@ -120,4 +121,4 @@ This repository hosts development deliverables, environment validations, and gra
 2. **Data Extraction Nodes:** Deployed the **Array Size** function node to automatically calculate total data density (`Size = 4`) and the **Index Array** function node to scan registers and isolate a single variable item out to an independent display.
 
 #### System Execution Layout:
-![Understanding Arrays Layout](Spectragaze_Task_Screenshots/Understanding_Arrays.png)
+![Understanding Arrays Layout](Spectragaze_Task_Screenshots/Arrays.png)
