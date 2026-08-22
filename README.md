@@ -59,6 +59,6 @@ This repository hosts development deliverables, environment validations, and gra
 
 **Backend Block Diagram Dataflow**
 
-![Block Diagram Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Block Diagram.png)
+![Block Diagram Screenshot](Spectragaze_Task_Screenshots/Data%20Types%20Exploration%20Block%20Diagram.png)
 
 
