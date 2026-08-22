@@ -53,7 +53,12 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### System Execution Layouts:
 
-| Front Panel User Interface | Backend Block Diagram Dataflow |
-| :---- | :---- |
-| ![Front Panel Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Front Panel.png) | ![Block Diagram Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Block Diagram.png) |
+**Front Panel User Interface**
+
+![Front Panel Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Front Panel.png)
+
+**Backend Block Diagram Dataflow**
+
+![Block Diagram Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Block Diagram.png)
+
 
