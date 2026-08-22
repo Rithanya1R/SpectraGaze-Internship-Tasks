@@ -55,7 +55,7 @@ This repository hosts development deliverables, environment validations, and gra
 
 **Front Panel User Interface**
 
-![Front Panel Screenshot](Spectragaze_Task_Screenshots/Data Types Exploration Front Panel.png)
+![Front Panel Screenshot](Spectragaze_Task_Screenshots/Data%20Types%20Exploration%20Front%20Panel.png)
 
 **Backend Block Diagram Dataflow**
 
