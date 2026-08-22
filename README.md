@@ -8,7 +8,6 @@ This repository hosts development deliverables, environment validations, and gra
 ## 📁 Day 1 Tasks & Labs
 
 ### 🚀 Task 1: Onboarding & Environment Setup
-* **Source File:** `Environment_Setup.md`
 * **Objective:** Install LabVIEW 2026 Q3 (Community Edition), configure NI-DAQmx and NI-VISA drivers, and verify activation in NI Package Manager.
 
 #### Deliverables:
