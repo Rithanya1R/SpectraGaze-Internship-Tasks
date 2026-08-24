@@ -122,3 +122,57 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### System Execution Layout:
 ![Understanding Arrays Layout](Spectragaze_Task_Screenshots/Arrays.png)
+
+
+---
+
+## 📁 Day 3 Tasks & Labs
+
+### 🚀 Dataflow Programming Models & Execution Concurrency
+* **Source File:** `Understanding DataFlow.vi`
+* **Objective:** Map structural node execution, trace independent thread processing, and eliminate structural Flat Sequence boxes using pure wire data dependency tracking and functional selection gates.
+
+#### 🎥 Video Knowledge Validation:
+* **Fahrenheit to Celsius Study Tool:** Pre-lab diagnostic exploration verifying baseline data packet routing pipelines.
+  * **System Visualization:** ![Fahrenheit to Celsius Practice](Spectragaze_Task_Screenshots/DataFlow_1.png)
+
+---
+
+### 🚀 Task 1: Arithmetic Primitive Chaining & Flow Logic
+* **Objective:** Map multi-stage mathematical expression chains to analyze how downstream computational nodes dynamically lock until initial wire inputs are completely satisfied.
+
+#### System Execution Layouts:
+
+| Front Panel User Interface | Backend Block Diagram Dataflow |
+| :---: | :---: |
+| ![Arithmetic Chaining Panel](Spectragaze_Task_Screenshots/Arithmetic_Primitive_Chaining_Front_Panel.png) | ![Arithmetic Chaining Diagram](Spectragaze_Task_Screenshots/Arithmetic_Primitive_Chaining_Block_Diagram.png) |
+
+---
+
+### 🚀 Task 2: Asynchronous Parallel Branches & Concurrency
+* **Objective:** Deploy isolated calculation networks running side-by-side to demonstrate automatic compiler hardware multi-threading across separate CPU cores without manual thread handling routines.
+
+#### System Execution Layouts:
+
+| Front Panel User Interface | Backend Block Diagram Dataflow |
+| :---: | :---: |
+| ![Independent Branch Panel](Spectragaze_Task_Screenshots/Independent_Branch_Front_Panel.png) | ![Independent Branch Diagram](Spectragaze_Task_Screenshots/Independent_Branch_Block_Diagram.png) |
+
+---
+
+### 🚀 Task 3: Sequence Structure Refactoring & Optimization
+* **Objective:** Model how text-based programmers artificially force timing controls using flat film-reel frames, and subsequently refactor the logic to run purely on data dependency constraints.
+
+#### 1. Flat Sequence Architecture Framework (Baseline)
+* **Execution Behavior:** Enforces sequential step logic by restricting frame execution chronologically from left to right. Frame 1 stays completely frozen and grayed out while data bubbles travel through Frame 0.
+
+| Flat Sequence Panel Interface | Sequence Frame 1 Block View | Sequence Frame 2 Block View |
+| :---: | :---: | :---: |
+| ![Sequence Front Panel](Spectragaze_Task_Screenshots/Sequence_Structure_Front_Panel.png) | ![Sequence Frame 1](Spectragaze_Task_Screenshots/Sequence_Structure_1.png) | ![Sequence Frame 2](Spectragaze_Task_Screenshots/Sequence_Structure_2.png) |
+
+#### 2. Advanced Refactored Non-Destructive Pipelines
+* **Execution Tracking Phase 1:** Demonstrates data flow monitoring under highlighted bubble routing paths.
+  * **System Visualization:** ![Execution Tracking 1](Spectragaze_Task_Screenshots/Execution_tracking_1.png)
+* **Execution Tracking Phase 2 (Selector Gate Function):** Utilizes a Select function block locked to an absolute **True** constant. The operational logic forces the system to freeze downstream multiplication steps until the asynchronous division data bubble finishes processing and arrives at the gate's lower terminal, preserving 100% mathematical integrity.
+  * **System Visualization:** ![Execution Tracking 2 Selector Gate](Spectragaze_Task_Screenshots/Execution_tracking_2_Selector.png)
+
