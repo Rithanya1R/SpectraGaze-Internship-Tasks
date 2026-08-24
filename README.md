@@ -123,7 +123,6 @@ This repository hosts development deliverables, environment validations, and gra
 #### System Execution Layout:
 ![Understanding Arrays Layout](Spectragaze_Task_Screenshots/Arrays.png)
 
-
 ---
 
 ## 📁 Day 3 Tasks & Labs
