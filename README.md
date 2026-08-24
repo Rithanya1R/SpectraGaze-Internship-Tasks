@@ -165,8 +165,8 @@ This repository hosts development deliverables, environment validations, and gra
 #### 1. Flat Sequence Architecture Framework (Baseline)
 * **Execution Behavior:** Enforces sequential step logic by restricting frame execution chronologically from left to right. Frame 1 stays completely frozen and grayed out while data bubbles travel through Frame 0.
 
-| Flat Sequence Panel Interface | Sequence Frame 1 Block View | Sequence Frame 2 Block View |
-| :---: | :---: | :---: |
+| Flat Sequence Panel Interface | Sequence Frame 1 Block View |
+| :---: | :---: |
 | ![Sequence Front Panel](Spectragaze_Task_Screenshots/Sequence_Structure_Front_Panel.png) | ![Sequence Frame 2](Spectragaze_Task_Screenshots/Sequence_Structure_2.png) |
 
 #### 2. Advanced Refactored Non-Destructive Pipelines
