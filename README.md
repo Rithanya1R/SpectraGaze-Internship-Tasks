@@ -175,3 +175,40 @@ This repository hosts development deliverables, environment validations, and gra
 * **Execution Tracking Phase 2 (Selector Gate Function):** Utilizes a Select function block locked to an absolute **True** constant. The operational logic forces the system to freeze downstream multiplication steps until the asynchronous division data bubble finishes processing and arrives at the gate's lower terminal, preserving 100% mathematical integrity.
   * **System Visualization:** ![Execution Tracking 2 Selector Gate](Spectragaze_Task_Screenshots/Execution_tracking_2_Selector.png)
 
+---
+
+## 📁 Day 4: Core Environment Diagnostics & Subsystem Validation
+
+### 🚀 Advanced Debugging Methodologies, Trace-Point Probing & Modular Engineering
+* **Source Files:** Custom Sub-VI Geometry Module and Master Diagnostic Interface Canvas
+* **Objective:** Master professional environment instrumentation, runtime thread interrogation, and multi-point parameter tracking by diagnosing compile-time syntax faults and correcting hidden semantic logic errors within a multi-VI application.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Modular Sub-VI Architecture & Connector Mapping:**
+   * Engineered a standalone geometric subsystem utilizing multi-input resizable calculation nodes to streamline block diagram workspace efficiency.
+   * Mapped internal controls and indicators directly to the upper-right **Connector Pane Grid**, creating functional, external hardware terminals. This enables the top-level script to cleanly call and pass parameters to the module as a reusable function block.
+
+2. **Real-Time Parameter Probing & Dynamic Value Logging:**
+   * Configured floating **Wire Probes** across separate data buses on the block diagram, serving as virtual digital multimeters.
+   * Utilized **Highlight Execution** to visually track the speed and path of data packets flowing through the circuits.
+   * Activated **Retain Wire Values** mode to preserve system memory maps after program completion. Verified that the diagnostic window logged precise parameter values (`24`, `25`, and `3061.2`) along the wire paths during full-speed runtime.
+
+3. **Execution Thread Control via Context Breakpoints:**
+   * Deployed structural **Breakpoints** directly onto the called sub-VI icon node, establishing a physical thread-freeze boundary.
+   * Verified that the breakpoint successfully halts background CPU execution the millisecond input data arrives, triggering a flashing red pause state on the toolbar ribbon. This allows developers to inspect static intermediate memory states calmly before the application proceeds.
+   * Practiced micro-stepping execution commands (**Step Into**, **Step Over**, and **Step Out**) to advance data packets through the logic nodes one bubble at a time.
+
+4. **Syntax & Semantic Bug Remediation:**
+   * **Syntax Layer:** Analyzed compiler failures via the three-pane **Error List** window to instantly auto-locate an uncompiled, unwired pin on the sub-VI's division node. Fixed by linking a hardcoded constant denominator.
+   * **Semantic Layer:** Troubleshooted a hidden runtime logic error where a side-length validation circuit permanently failed. Used wire probes to find that a Less Than (`<0`) comparator was incorrectly used instead of a Greater Than (`>0`) block. Swapping the operator allowed the resizable 3-input **AND** gate to fire the front-panel safety status LED perfectly.
+
+#### Verified Implementation Workspaces:
+
+| Active Trace-Point Probe Analysis | Execution Thread Boundary Interrogation |
+| :---: | :---: |
+| ![Probes Log Display](Day%204%20Screenshots/Debugging_Tools_Verification.png) | ![Breakpoint Thread Halt](Day%204%20Screenshots/Breakpoint_Pause_Verification.png) |
+
+| Trace-Point Probes under Highlight Execution | Validation Status Optimization |
+| :---: | :---: |
+| ![Highlighted Data Flow](Day%204%20Screenshots/Debugging_Tools_Verification_Highlight_Execution.png) | ![Resolved System Assembly](Day%204%20Screenshots/Breakpoint_Pause_Verification_1.png) |
