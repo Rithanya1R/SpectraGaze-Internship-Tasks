@@ -207,8 +207,8 @@ This repository hosts development deliverables, environment validations, and gra
 
 | Active Trace-Point Probe Analysis | Execution Thread Boundary Interrogation |
 | :---: | :---: |
-| ![Probes Log Display](Day%204%20Screenshots/Debugging_Tools_Verification.png) | ![Breakpoint Thread Halt](Day%204%20Screenshots/Breakpoint_Pause_Verification.png) |
+| ![Probes Log Display](Spectragaze_Task_Screenshots/Debugging_Tools_Verification.png) | ![Breakpoint Thread Halt](Spectragaze_Task_Screenshots/Breakpoint_Pause_Verification.png) |
 
 | Trace-Point Probes under Highlight Execution | Validation Status Optimization |
 | :---: | :---: |
-| ![Highlighted Data Flow](Day%204%20Screenshots/Debugging_Tools_Verification_Highlight_Execution.png) | ![Resolved System Assembly](Day%204%20Screenshots/Breakpoint_Pause_Verification_1.png) |
+| ![Highlighted Data Flow](Spectragaze_Task_Screenshots/Debugging_Tools_Verification_Highlight_Execution.png) | ![Resolved System Assembly](Spectragaze_Task_Screenshots/Breakpoint_Pause_Verification_1.png) |
