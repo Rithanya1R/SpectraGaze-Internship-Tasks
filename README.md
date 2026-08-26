@@ -218,27 +218,50 @@ This repository hosts development deliverables, environment validations, and gra
 
 ## 📁 Day 5: Multi-Primitive Interface Engineering & Data Type Calibration
 
-### 🚀 Industrial Human-Machine Interface (HMI) Console Architecture
-* **Source Files:** `Day 5 Mini UI and Type Calibration.vi` and `DAY 5 Mini UI to Replicate Real System.vi`
-* **Objective:** Synthesize multiple data primitives (Numeric, Boolean, and String formats) into an integrated, theme-oriented diagnostic cockpit console while executing numeric representation calibration to ensure optimal processing efficiency.
+### 🚀 Advanced Numeric Representation Alignment & Multi-Primitive User Interfaces
+* **Objective:** Synthesize multiple data primitives (Numeric, Boolean, and String formats) into an integrated user interface canvas while executing precise numeric representation calibration to ensure optimal compiler processing efficiency.
 
-#### Detailed Architectural Implementations & Technical Milestones:
+---
 
-1. **Numeric Representation Calibration & Optimization:**
-   * Analyzed compiler warnings caused by mismatching numeric types, identifying how data promotion layers flag red coercion dots on execution terminals.
-   * Calibrated wire paths by matching representations directly across the blocks, eliminating coercion dot overheads to optimize run-time processing speed.
+### 📥 Implementation 1: Numeric Representation Calibration (Task [E])
+* **Source File:** `Day 5 Mini UI and Type Calibration.vi`
+* **Objective:** Isolate compile-time data conversion behavior by triggering and subsequently resolving memory coercion warnings.
 
-2. **Themed Human-Machine Interface (HMI) Layouts:**
-   * Leveraged structural recessed box decorations to establish clean visual zoning containers across the front panel.
-   * Engineered an integrated **Propulsion Telemetry & Decision Console** featuring real-time interactive numeric pointer slides, needle gauge readouts, vertical tank progress meters, boolean rocker toggles, status LEDs, and a scrolling data log terminal.
+#### Key Mechanics:
+* **The Coercion Fault:** Wiring a 64-bit Floating-Point line (`DBL`) directly into a 32-bit Integer terminal (`I32`) forces an automatic run-time data conversion, throwing a red coercion dot anomaly at the target node.
+* **The Optimization:** Modifying the block properties to ensure identical representations eliminates the coercion dot entirely, preventing background CPU overhead cycles.
 
-3. **Low-Fuel Safety Trip Logic:**
-   * Implemented a **Less Than or Equal To ($\leq$)** comparison gate to automatically audit live tank levels against a constant threshold boundary value of `25`.
-   * Configured the system to instantly fire a prominent front-panel alert indicator the exact millisecond metrics drop to 25% or lower, demonstrating deterministic automation.
+#### System Calibration Layout:
+![Coercion Dot Resolution](Spectragaze_Task_Screenshots/COERSION_DOT.png)
 
-#### Verified Implementation Workspaces:
+---
+
+### 📥 Implementation 2: Primitive Variable Matrix (Task [M])
+* **Source File:** `Day 5 Mini UI and Type Calibration.vi`
+* **Objective:** Group all four core primitive data formats onto a single interface layout to confirm concurrent data bus streaming.
+
+#### Integrated Tracks:
+1. **Numeric Primitives:** Parallel color-coded wire paths for Blue Integers (`I32`) and Orange Double Floats (`DBL`).
+2. **Boolean Matrix:** Mechanical push buttons and green status LED signaling lines.
+3. **String Array:** Alphanumeric pink data paths routing keyboard text streams seamlessly.
+
+#### System Workspace Layout:
+![Primitive Matrix Workspace](Spectragaze_Task_Screenshots/SIMPLE_MINI_UI.png)
+
+---
+
+### 📥 Implementation 3: Industrial Human-Machine Interface (HMI) Console
+* **Source File:** `DAY 5 Mini UI to Replicate Real System.vi`
+* **Objective:** Scale multi-primitive data tracks into an integrated, theme-oriented diagnostic cockpit console using structural container frames and comparative trip automation.
+
+#### Detailed Architectural Features:
+* **Zoning Panels:** Utilizes recessed structural boxes to visually group the interface into independent instrumentation bays (Propulsion Telemetry, Flight Decision Matrix, and Subsystem Log Feeds).
+* **Automated Safety Interlock:** Links an orange telemetry fuel line into a Less Than or Equal To ($\leq$) comparison gate mapped against a constant safety limit of `25`. The logic trips the warning indicator light the exact millisecond metrics drop to 25% or lower.
+
+#### System Execution Layouts:
 
 | Theme-Oriented Front Panel Dashboard Console | Backend Block Diagram Multi-Bus Pipelines |
 | :---: | :---: |
 | ![Cockpit Front Panel](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_FRONT_PANEL.png) | ![Multi-Bus Block Diagram](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_BLOCK_DIAGRAM.png) |
+
 
