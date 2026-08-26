@@ -212,3 +212,33 @@ This repository hosts development deliverables, environment validations, and gra
 | Trace-Point Probes under Highlight Execution | Validation Status Optimization |
 | :---: | :---: |
 | ![Highlighted Data Flow](Spectragaze_Task_Screenshots/Debugging_Tools_Verification_Highlight_Execution.png) | ![Resolved System Assembly](Spectragaze_Task_Screenshots/Breakpoint_Pause_Verification_1.png) |
+
+
+---
+
+## 📁 Day 5: Multi-Primitive Interface Engineering & Data Type Calibration
+
+### 🚀 Industrial Human-Machine Interface (HMI) Console Architecture
+* **Source Files:** `Day 5 Mini UI and Type Calibration.vi` and `DAY 5 Mini UI to Replicate Real System.vi`
+* **Objective:** Synthesize multiple data primitives (Numeric, Boolean, and String formats) into an integrated, theme-oriented diagnostic cockpit console while executing numeric representation calibration to ensure optimal processing efficiency.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Numeric Representation Calibration & Optimization:**
+   * Analyzed compiler warnings caused by mismatching numeric types, identifying how data promotion layers flag red coercion dots on execution terminals.
+   * Calibrated wire paths by matching representations directly across the blocks, eliminating coercion dot overheads to optimize run-time processing speed.
+
+2. **Themed Human-Machine Interface (HMI) Layouts:**
+   * Leveraged structural recessed box decorations to establish clean visual zoning containers across the front panel.
+   * Engineered an integrated **Propulsion Telemetry & Decision Console** featuring real-time interactive numeric pointer slides, needle gauge readouts, vertical tank progress meters, boolean rocker toggles, status LEDs, and a scrolling data log terminal.
+
+3. **Low-Fuel Safety Trip Logic:**
+   * Implemented a **Less Than or Equal To ($\leq$)** comparison gate to automatically audit live tank levels against a constant threshold boundary value of `25`.
+   * Configured the system to instantly fire a prominent front-panel alert indicator the exact millisecond metrics drop to 25% or lower, demonstrating deterministic automation.
+
+#### Verified Implementation Workspaces:
+
+| Theme-Oriented Front Panel Dashboard Console | Backend Block Diagram Multi-Bus Pipelines |
+| :---: | :---: |
+| ![Cockpit Front Panel](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_FRONT_PANEL.png) | ![Multi-Bus Block Diagram](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_BLOCK_DIAGRAM.png) |
+
