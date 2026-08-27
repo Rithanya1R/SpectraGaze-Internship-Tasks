@@ -265,3 +265,35 @@ This repository hosts development deliverables, environment validations, and gra
 | ![Cockpit Front Panel](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_FRONT_PANEL.png) | ![Multi-Bus Block Diagram](Spectragaze_Task_Screenshots/MINI_UI_DASHBOARD_TO_REPLICATE_REAL_SYSTEM_BLOCK_DIAGRAM.png) |
 
 
+---
+
+## 📁 Day 6: Iterative Loop Architectures & Multi-Dimensional Array Processing
+
+### 🚀 Graphical Array Accumulation, Nested Loops & Multi-Method Logic
+* **Source File:** `Day 6 Core Loop Exercises.vi`
+* **Objective:** Master For Loop boundaries, automated auto-indexing array accumulation, and nested multi-axis matrix tracking while implementing and verifying multiple data routing methodologies.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Automated Array Accumulation via Border Tunnels (Task):**
+   * Explored how data boundaries capture scalar packets, eliminating the need to manually initialize memory slots or handle variable pointers.
+   * Constructed an auto-indexing squaring loop executing a fixed count boundary ($N=10$) to dynamically assemble an ordered mathematical data array from $0^2$ to $9^2$.
+
+2. **Multi-Axis Matrix Stacking via Nested Loops (Task):**
+   * Engineered a dual-loop nested framework to dynamically generate a comprehensive $10 \times 10$ multi-dimensional multiplication spreadsheet chart.
+   * Evaluated how horizontal row trays are compiled by inner loop terminals and subsequently stacked top-to-bottom by outer boundaries, changing wire types into double-line matrix grid formats.
+
+3. **Identity Matrix Comparative Design Analysis (Task):**
+   * **Methodology 1 (Programmatic Cast):** Paired an index Equality Comparator block with a highly efficient **Boolean to (0,1)** primitive function block to automatically translate state flags directly into binary integers ($1$ on matching coordinate intersections, $0$ everywhere else), establishing clean data dependency while removing visual diagram clutter.
+   * **Methodology 2 (Explicit Selector Gate):** Implements a structural **Select function block** driven by explicit numeric constant blocks (`1` and `0`) to control the target pipeline matrix data paths cleanly, providing a clear visual representation of multi-branch logic tracking.
+
+#### Verified Implementation Workspaces:
+
+| 1D Auto-Indexing Squaring Loop Array | 2D Multi-Axis Multiplication Matrix Chart |
+| :---: | :---: |
+| ![1D Array of Squares](Spectragaze_Task_Screenshots/10_Element_Array__of_squares.png) | ![Multiplication Table Grid](Spectragaze_Task_Screenshots/2D_Multiplication_Table.png) |
+
+| Multi-Method Identity Matrix System Architecture |
+| :---: |
+| ![Identity Matrix Canvas](Spectragaze_Task_Screenshots/Identity_Matrix_Implementations.png) |
+
