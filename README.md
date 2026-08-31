@@ -358,3 +358,4 @@ This repository hosts development deliverables, environment validations, and gra
 | Theme-Oriented Front Panel Dashboard Console | Backend Block Diagram Multi-Bus Pipelines |
 | :---: | :---: |
 | ![Cockpit Front Panel](Spectragaze_Task_Screenshots/D_8_FP.png) | ![Multi-Bus Block Diagram](Spectragaze_Task_Screenshots/D_8_FP.png) |
+
