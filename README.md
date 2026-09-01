@@ -370,15 +370,15 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### Detailed Architectural Implementations & Technical Milestones:
 
-1. **Automated Array Accumulation & Left-Aligned Triangles (Task [E]):**
+1. **Automated Array Accumulation & Left-Aligned Triangles :**
    * Configured a dynamic nested loop structure using an increment offset ($i + 1$) to drive inner loop execution parameters.
    * Automated row-width scaling to assemble a clean, left-aligned 5-row star triangle without manual index pointers.
 
-2. **Symmetrical Array Concatenation & Diamonds (Task [M]):**
+2. **Symmetrical Array Concatenation & Diamonds :**
    * Combined an upper expanding loop engine ($i + 1$) and a lower contracting loop engine ($5 - i$) to form a mirrored star diamond pattern ($1 \rightarrow 5 \rightarrow 1$).
    * Programmed a **Build Array** node in **Concatenate Inputs** mode to append the two data channels back-to-back, preventing dimensionality breaks and eliminating index metadata text errors (`[]`).
 
-3. **Centered Visual Alignment & Space Padding (Task [H]):**
+3. **Centered Visual Alignment & Space Padding :**
    * Designed a centered star pyramid using an external front-panel control ($Pyramid\ Height\ (H)$) to resize loop limits dynamically at runtime.
    * Implemented dual-track string multiplier math inside the execution frame to calculate precise line spacing and star growth:
      * *Leading Spaces:* Approximated by the formula $H - 1 - i$ to add decreasing margins as the row count goes down.
@@ -386,6 +386,6 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### Verified Implementation Workspaces:
 
-| Task [E]: Left-Aligned Star Triangle | Task [M]: Symmetrical Star Diamond | Task [H]: Centered Star Pyramid |
+| Left-Aligned Star Triangle |  Symmetrical Star Diamond |  Centered Star Pyramid |
 | :---: | :---: | :---: |
 | ![Triangle Canvas](Spectragaze_Task_Screenshots/D_9_T_E.png) | ![Diamond Canvas](Spectragaze_Task_Screenshots/D_9_T_M.png) | ![Pyramid Canvas](Spectragaze_Task_Screenshots/D_9_T_H.png) |
