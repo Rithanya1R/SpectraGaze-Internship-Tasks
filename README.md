@@ -359,3 +359,33 @@ This repository hosts development deliverables, environment validations, and gra
 | :---: | :---: |
 | ![Cockpit Front Panel](Spectragaze_Task_Screenshots/D_8_BD.png) | ![Multi-Bus Block Diagram](Spectragaze_Task_Screenshots/D_8_FP.png) |
 
+
+
+---
+
+## 📁 Day 9: Character Loop Matrices & String Formatting
+
+### 🚀 Star Triangle Generation, Array Concatenation & Centered Pyramids
+* **Objective:** Master loop boundary behaviors, text string conversions, and dynamic padding logic to assemble scalable geometric star pattern matrices.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Automated Array Accumulation & Left-Aligned Triangles (Task [E]):**
+   * Configured a dynamic nested loop structure using an increment offset ($i + 1$) to drive inner loop execution parameters.
+   * Automated row-width scaling to assemble a clean, left-aligned 5-row star triangle without manual index pointers.
+
+2. **Symmetrical Array Concatenation & Diamonds (Task [M]):**
+   * Combined an upper expanding loop engine ($i + 1$) and a lower contracting loop engine ($5 - i$) to form a mirrored star diamond pattern ($1 \rightarrow 5 \rightarrow 1$).
+   * Programmed a **Build Array** node in **Concatenate Inputs** mode to append the two data channels back-to-back, preventing dimensionality breaks and eliminating index metadata text errors (`[]`).
+
+3. **Centered Visual Alignment & Space Padding (Task [H]):**
+   * Designed a centered star pyramid using an external front-panel control ($Pyramid\ Height\ (H)$) to resize loop limits dynamically at runtime.
+   * Implemented dual-track string multiplier math inside the execution frame to calculate precise line spacing and star growth:
+     * *Leading Spaces:* Approximated by the formula $H - 1 - i$ to add decreasing margins as the row count goes down.
+     * *Center Stars:* Approximated by the odd-number formula $2i + 1$ to expand star widths symmetrically ($1, 3, 5, 7, 9$).
+
+#### Verified Implementation Workspaces:
+
+| Task [E]: Left-Aligned Star Triangle | Task [M]: Symmetrical Star Diamond | Task [H]: Centered Star Pyramid |
+| :---: | :---: | :---: |
+| ![Triangle Canvas](Spectragaze_Task_Screenshots/D_9_T_E.png) | ![Diamond Canvas](Spectragaze_Task_Screenshots/D_9_T_M.png) | ![Pyramid Canvas](Spectragaze_Task_Screenshots/D_9_T_H.png) |
