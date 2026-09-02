@@ -417,5 +417,5 @@ This repository hosts development deliverables, environment validations, and gra
 
 | Task 1: Row-Value Diamond | Task 2: Hollow Square Matrix | Task 3: Spatial Distance Reflection |
 | :---: | :---: | :---: |
-| ![Row Value Diamond](Day%2010%20Screenshots/Row_Value_Diamond_Output.png) | ![Hollow Square](Day%2010%20Screenshots/Hollow_Square_Output.png) | ![Distance Matrix](Day%2010%20Screenshots/Spatial_Distance_Matrix.png) |
+| ![Row Value Diamond](Spectragaze_Task_Screenshots/D__10_T_1.png) | ![Hollow Square](Spectragaze_Task_Screenshots/D_10_T_2.png) | ![Distance Matrix](Spectragaze_Task_Screenshots/D_10_T_3.png) |
 
