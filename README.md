@@ -419,3 +419,33 @@ This repository hosts development deliverables, environment validations, and gra
 | :---: | :---: | :---: |
 | ![Row Value Diamond](Spectragaze_Task_Screenshots/D__10_T_1.png) | ![Hollow Square](Spectragaze_Task_Screenshots/D_10_T_2.png) | ![Distance Matrix](Spectragaze_Task_Screenshots/D_10_T_3.png) |
 
+
+---
+
+## 📁 Day 11: Specialized Array Sub-Slicing & Vector Summation Engines
+
+### 🚀 Vector Boundary Parsers, Index Inversions & Multi-Axis Matrix Slicing
+* **Objective:** Master 1D array boundary tracking, index order reversals, and multi-axis 2D matrix vector slicing to extract and sum isolated row and column tracks cleanly.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Discrete Slot Extractions & Bounds Tracking (Task [E]):**
+   * Leveraged **Array Size** nodes to evaluate array boundary constraints, confirming total dataset allocation parameters automatically.
+   * Utilized individual index pin nodes to target and grab individual items from specific zero-indexed data slots.
+
+2. **Index Order Inversions & Peak Extreme Isolations (Task [M]):**
+   * Employed a **Reverse 1D Array** node to seamlessly flip data trajectories without modifying raw data parameters.
+   * Integrated an **Array Max & Min** block to parse active vectors, successfully isolating upper peak limits and lower boundary values without loop overhead.
+
+3. **Multi-Axis 2D Matrix Vector Slicing (Task [H]):**
+   * Engineered a parallel multi-axis extraction engine utilizing dual **Index Array** blocks to process a 2D spreadsheet matrix.
+   * Configured explicit pin mapping: isolating rows by filling the upper selection terminal, and isolating vertical columns by filling the lower selection terminal.
+   * Channeled the resulting 1D data vectors into **Add Array Elements** primitives to dynamically compute totals for specific rows and columns.
+
+#### Verified Implementation Workspaces:
+
+| Array Extraction & Summation Canvas Front Panel |Array Extraction & Summation Canvas Block Diagram |
+| :---: | :---: |
+| ![Array](Spectragaze_Task_Screenshots/D_11_FP.png) | ![Array](Spectragaze_Task_Screenshots/D_11_BD.png) |
+
+
