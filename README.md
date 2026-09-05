@@ -449,3 +449,32 @@ This repository hosts development deliverables, environment validations, and gra
 | ![Array](Spectragaze_Task_Screenshots/D_11_FP.png) | ![Array](Spectragaze_Task_Screenshots/D_11_BD.png) |
 
 
+
+---
+
+## 📁 Day 12: Heterogeneous Data Structures & Strict Type Definition Control
+
+### 🚀 Mixed-Primitive Clusters, Strict Type-Def Enums & Instrumentation Database Arrays
+* **Objective:** Master heterogeneous data bundling, centralized Type-Def blueprint overrides, and multi-axis cluster arrays to manage instrumentation data packets efficiently.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Heterogeneous Packing & Intercept Overrides :**
+   * Packaged mixed data primitives (Strings, Integers, and Booleans) into a single unified data wire track using structural **Cluster Containers**.
+   * Implemented **Unbundle By Name** and **Bundle By Name** nodes to selectively extract values and perform inline channel overrides without corrupting adjacent data fields.
+
+2. **Centralized Strict Type-Def Enum & Dual Logic Sandboxes :**
+   * Formulated an automated traffic controller state framework driven by a master external blueprint template file (`.ctl`).
+   * Leveraged **Strict Type-Definitions** to tie user-interface selection tracks to a single hard-drive source, proving that updating the master file updates type boundaries system-wide.
+   * Integrated the tracking wire into a **Case Structure** selection terminal, demonstrating synchronized branch execution states ("GREEN" ➔ Go, "YELLOW" ➔ Slow Down, "RED" ➔ Stop).
+   * Constructed a parallel execution sandbox using a separate control framework to test dynamic case synchronization independently on the same layout page without cross-talk or data channel interference.
+
+3. **High-Density Instrumentation Database Design :**
+   * Engineered an industry-standard measurement record template combining real-time Timestamps, alphanumeric Channel IDs, numeric Values, and Boolean pass/fail status flags.
+   * Compiled the blueprint model straight into an **Array Container** to construct an **Array of Clusters** data block, establishing multi-point logging capabilities across an indexed tracking database.
+
+#### Verified Implementation Workspaces:
+
+| Full Dashboard Front Panel Consoles | Backend Block Diagram Dataflow Architecture |
+| :---: | :---: |
+| ![Front Panel Dashboard](Spectragaze_Task_Screenshots/D_12_Cluster_&_Enums_FP.png) | ![Block Diagram Architecture](Spectragaze_Task_Screenshots/D_12_Cluster_&_Enums_BD.png) |
