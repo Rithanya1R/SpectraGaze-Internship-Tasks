@@ -489,11 +489,11 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### Detailed Architectural Implementations & Technical Milestones:
 
-1. **Inline Selection Logic Paths (Task [E]):**
+1. **Inline Selection Logic Paths:**
    * Integrated a **Quotient & Remainder** block with an **Equal to 0?** gate to track integer remainder states dynamically.
    * Leveraged a high-performance **Select** primitive to instantly change character strings without case architecture overhead.
 
-2. **Multi-Method Loop Extraction Architectures (Task [M] & [H]):**
+2. **Multi-Method Loop Extraction Architectures:**
    * Engineered three independent layout strategies to capture and calculate proper divisors for any integer $N$.
    * Diagnosed zero-padding defects in Case structures, optimized data tracking via **Conditional Tunnel Mode**, and constructed a true hardware accumulator loop using **Shift Registers** paired with inline Select gates to preserve data history across ticks.
    * Leveraged parallel data branching to tap the raw incremented current divisor line directly into a conditional loop border tunnel, successfully bypassing cumulative calculation tracks.
