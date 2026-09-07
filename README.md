@@ -478,3 +478,37 @@ This repository hosts development deliverables, environment validations, and gra
 | Full Dashboard Front Panel Consoles | Backend Block Diagram Dataflow Architecture |
 | :---: | :---: |
 | ![Front Panel Dashboard](Spectragaze_Task_Screenshots/D_12_Cluster_&_Enums_FP.png) | ![Block Diagram Architecture](Spectragaze_Task_Screenshots/D_12_Cluster_&_Enums_BD.png) |
+
+
+---
+
+## 📁 Day 13: SubVI Function Packaging & Conditional Loop Filtering
+
+### 🚀 Inline Parity Selectors, Conditional Array Filtering & Shift Register Accumulators
+* **Objective:** Master modular function packaging (SubVIs), connector pane terminal mapping, conditional loop border filtering, and shift register accumulators to isolate and calculate specific data vectors cleanly.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Inline Selection Logic Paths (Task [E]):**
+   * Integrated a **Quotient & Remainder** block with an **Equal to 0?** gate to track integer remainder states dynamically.
+   * Leveraged a high-performance **Select** primitive to instantly change character strings without case architecture overhead.
+
+2. **Multi-Method Loop Extraction Architectures (Task [M] & [H]):**
+   * Engineered three independent layout strategies to capture and calculate proper divisors for any integer $N$.
+   * Diagnosed zero-padding defects in Case structures, optimized data tracking via **Conditional Tunnel Mode**, and constructed a true hardware accumulator loop using **Shift Registers** paired with inline Select gates to preserve data history across ticks.
+   * Leveraged parallel data branching to tap the raw incremented current divisor line directly into a conditional loop border tunnel, successfully bypassing cumulative calculation tracks.
+
+3. **SubVI Function Modular Packaging:**
+   * Compressed backend calculation tracks down into a reusable standalone sub-module icon footprint.
+   * Configured the **Connector Pane Grid Matrix** to bind inputs ($N\ in$) and outputs ($Array$ and $Sum$) to fixed execution pins automatically, enabling modular integration in larger codebases.
+
+#### Verified Implementation Workspaces:
+
+| Master Integrated Dashboard Front Panel | Master Integrated Dashboard Block Diagram |
+| :---: | :---: |
+| ![Master Front Panel](Spectragaze_Task_Screenshots/D_13_FP.png) | ![Master Block Diagram](Spectragaze_Task_Screenshots/D_13_BD.png) |
+
+| Method 1: Case-Frame Logic SubVI | Method 2: Conditional Filter SubVI | Method 3: Shift Register SubVI |
+| :---: | :---: | :---: |
+| ![Method 1 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_1.png) | ![Method 2 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_2.png) | ![Method 3 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_3.png) |
+
