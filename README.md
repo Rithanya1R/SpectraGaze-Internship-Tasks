@@ -513,7 +513,6 @@ This repository hosts development deliverables, environment validations, and gra
 | ![Method 1 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_1.png) | ![Method 2 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_2.png) | ![Method 3 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_3.png) |
 
 
-
 ---
 
 ## 📁 Day 14: Algorithmic Search Engines & Modular SubVI Architectures
