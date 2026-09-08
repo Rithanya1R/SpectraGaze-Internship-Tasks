@@ -512,3 +512,30 @@ This repository hosts development deliverables, environment validations, and gra
 | :---: | :---: | :---: |
 | ![Method 1 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_1.png) | ![Method 2 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_2.png) | ![Method 3 SubVI](Spectragaze_Task_Screenshots/D_13_subVI_3.png) |
 
+
+
+---
+
+## 📁 Day 14: Algorithmic Search Engines & Modular SubVI Architectures
+
+### 🚀 Automated Amicable Search Engines, Cascaded SubVI Nesting & Symmetrical Logic Interlocks
+* **Objective:** Master modular code reusability via custom SubVI nesting, parallel logical verification buses, and automated conditional search frameworks to locate and isolate multi-axis numerical pairs cleanly.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Perfect Number & Static Amicable Verification (Task [E] & [H]):**
+   * Programmed dynamic factor verification circuits to validate perfect numbers ($6 \rightarrow 6$) and static amicable relationships ($220 \rightleftharpoons 284$) via conditional array summation paths.
+
+2. **Cascaded SubVI Nesting & Search Implementations (Task [H]):**
+   * Engineered a high-performance automated numerical scanner driven by a variable front-panel control input ($Search\ Upper\ Limit$).
+   * Bypassed redundant diagram code configurations by nesting twin copies of the custom `Divisor_Sum_Engine.vi` sub-module inside the scanner frame to evaluate cascaded algebraic sums ($A \rightarrow \text{SubVI}_1 \rightarrow B \rightarrow \text{SubVI}_2 \rightarrow A$) instantly.
+
+3. **Multi-Gate Logical Interlocking & Conditional Collection:**
+   * Constructed a parallel boolean inspection bus using an **Equal?** matching block linked to a **Not Equal?** anti-self exception gate.
+   * Channeled both data tracks into a **Compound Arithmetic AND block** driving a loop boundary **Conditional Tunnel**, automatically generating a clean, index-mapped vector display array of discovered items without zero-padding overhead.
+
+#### Verified Implementation Workspaces:
+
+| Automated Search Interface Front Panel Dashboard | Cascaded SubVI Backend Dataflow Architecture |
+| :---: | :---: |
+| ![Search Dashboard Front Panel](Spectragaze_Task_Screenshots/D_14_FP.png) | ![Search Architecture Block Diagram](Spectragaze_Task_Screenshots/D_14_BD.png) |
