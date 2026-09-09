@@ -565,5 +565,5 @@ This repository hosts development deliverables, environment validations, and gra
 
 | Master Integrated Dashboard Front Panel & Backend Block Diagram Dataflow Architecture |
 | :---: | 
-| ![Master Front Panel & Block Diagram](Spectragaze_Task_Screenshots/D_15_Waveform & format.png) | 
+| ![Master Front Panel & Block Diagram](Spectragaze_Task_Screenshots/D_15_Waveform_&_format.png) | 
 
