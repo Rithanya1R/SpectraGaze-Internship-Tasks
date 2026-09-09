@@ -538,3 +538,32 @@ This repository hosts development deliverables, environment validations, and gra
 | Automated Search Interface Front Panel Dashboard | Cascaded SubVI Backend Dataflow Architecture |
 | :---: | :---: |
 | ![Search Dashboard Front Panel](Spectragaze_Task_Screenshots/D_14_FP.png) | ![Search Architecture Block Diagram](Spectragaze_Task_Screenshots/D_14_BD.png) |
+
+---
+
+## 📁 Day 15: Engineering Signal Graphing & Character Conversion Engines
+
+### 🚀 Simulated Waveform Compilation, Vector Sub-Slicing & String Format Engines
+* **Objective:** Master automated sensor wave plotting, array indexing interceptions, and high-performance alphanumeric text formatting to output standardized instrumentation readouts.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Automated Waveform Assembly & Plotting:**
+   * Configured a 25-cycle sensor data generator scaling random data streams up to a 0–100 baseline range.
+   * Utilized a **Build Waveform** block to bundle raw values with automated clock frequency markers ($dt = 1.0$).
+   * Mapped the multi-element metadata straight into an HMI **Waveform Graph** widget, rendering a clean real-time tracking wave.
+
+2. **Vector Sub-Slicing Interceptions:**
+   * Integrated an **Index Array** block directly into the main loop output bus line to tap the data stream.
+   * Extracted an isolated double-precision float value from index location slot 10 safely without loop overhead.
+
+3. **Alphanumeric Conversion & Formatting Engines:**
+   * Programmed a **Format Into String** block driven by a specialized pink layout parameter rule constant (`%.3f V`).
+   * Commanded the compiler to truncate the target float variable to exactly three decimal places and append a trailing space and unit label ($V$), outputting a professional instrumentation message ($16.186\ V$) onto the display sheet.
+
+#### Verified Implementation Workspaces:
+
+| Master Integrated Dashboard Front Panel & Backend Block Diagram Dataflow Architecture |
+| :---: | 
+| ![Master Front Panel & Block Diagram](Spectragaze_Task_Screenshots/D_15_Waveform & format.png) | 
+
