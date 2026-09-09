@@ -559,7 +559,7 @@ This repository hosts development deliverables, environment validations, and gra
 
 3. **Alphanumeric Conversion & Formatting Engines:**
    * Programmed a **Format Into String** block driven by a specialized pink layout parameter rule constant (`%.3f V`).
-   * Commanded the compiler to truncate the target float variable to exactly three decimal places and append a trailing space and unit label ($V$), outputting a professional instrumentation message ($16.186\ V$) onto the display sheet.
+   * Commanded the compiler to truncate the target float variable to exactly three decimal places and append a trailing space and unit label ($V$), outputting a professional instrumentation message ($2.279\ V$) onto the display sheet.
 
 #### Verified Implementation Workspaces:
 
