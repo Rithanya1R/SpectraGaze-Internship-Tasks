@@ -567,3 +567,35 @@ This repository hosts development deliverables, environment validations, and gra
 | :---: | 
 | ![Master Front Panel & Block Diagram](Spectragaze_Task_Screenshots/D_15_Waveform_&_format.png) | 
 
+
+---
+
+## 📁 Day 16: Digital Logic Modeling & Automated Truth Table Generation
+
+### 🚀 Custom Logic SubVIs, 2D Truth Table Matrix Generators & Equivalence Verification Busses
+* **Objective:** Master basic digital logic modeling by creating custom gate sub-modules via multiplexer Select-nodes, automating 2D Boolean matrix generation via nested loops, and implementing parallel verification pipelines.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Custom Multiplexer Select-Node SubVIs:**
+   * Bypassed traditional case frame overheads by engineering hardware-equivalent logic blocks using optimized inline **Select** primitives paired with explicit True/False logic constants.
+   * Secured clean input/output terminal connections via optimized connector panes across all three base modules (**AND**, **OR**, **NOT**).
+
+2. **Automated 2D Truth Table Matrix Generators:**
+   * Configured a nested double-loop tracking framework running $2 \times 2$ iterations to simulate complete binary input configurations ($00, 01, 10, 11$).
+   * Converted raw index markers ($i = 0, 1$) into matching Boolean signals via **Greater Than 0?** check blocks to automatically populate the 2D tracking matrix arrays without hardcoded array inputs.
+
+3. **Parallel Equivalence Verification Buses:**
+   * Implemented a real-time hardware-in-the-loop comparison bus running alongside the main logic stream.
+   * Routed outputs from custom Select-node SubVIs and native LabVIEW primitive nodes simultaneously into an **Equal?** comparator, verifying 100% operational matching on the front panel display sheet.
+   * Leveraged **Boolean To (0,1)** primitives to cast logical streams into pure binary integer matrices ($0$ and $1$) for clear, spreadsheet-compatible array rendering.
+
+#### Verified Implementation Workspaces:
+
+| Master Integrated Dashboard Front Panel | Master Integrated Dashboard Block Diagram |
+| :---: | :---: |
+| ![Full Front Panel Dashboard](Spectragaze_Task_Screenshots/Day_16_Front_Panel_Dashboard.png) | ![Full Block Diagram](Spectragaze_Task_Screenshots/Day_16_Master_Block_Diagram.png) |
+
+| Custom AND Gate SubVI Logic | Custom OR Gate SubVI Logic | Custom NOT Gate SubVI Logic |
+| :---: | :---: | :---: |
+| ![AND SubVI](Spectragaze_Task_Screenshots/Custom_AND_Gate_SubVI.png) | ![OR SubVI](Spectragaze_Task_Screenshots/Custom_OR_Gate_SubVI.png) | ![NOT SubVI](Spectragaze_Task_Screenshots/Custom_NOT_Gate_SubVI.png) |
