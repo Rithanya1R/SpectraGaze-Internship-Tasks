@@ -599,3 +599,33 @@ This repository hosts development deliverables, environment validations, and gra
 | Custom AND Gate SubVI Logic | Custom OR Gate SubVI Logic | Custom NOT Gate SubVI Logic |
 | :---: | :---: | :---: |
 | ![AND SubVI](Spectragaze_Task_Screenshots/Custom_AND_Gate_SubVI.png) | ![OR SubVI](Spectragaze_Task_Screenshots/Custom_OR_Gate_SubVI.png) | ![NOT SubVI](Spectragaze_Task_Screenshots/Custom_NOT_Gate_SubVI.png) |
+
+
+---
+
+## 📁 Day 17: Universal Logic Arrays & 3-Variable Boolean Solvers
+
+### 🚀 Universal Logic Libraries, 3-Axis Loop Matrix Scans & Compound Equation Circuits
+* **Objective:** Expand the digital gate library with universal operations, visually confirm distinct-input XOR constraints, and build a 3-variable nested loop array scanner to solve compound boolean functions.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **Universal Gate Library Expansion (Task [M]):**
+   * Engineered four standalone custom sub-modules (**NAND**, **NOR**, **XOR**, **XNOR**) to achieve a full, production-ready digital logic component library.
+   * Verified truth tables automatically via parallel evaluation loops, logging 100% data alignment against reference logic tables.
+
+2. **XOR Distinct-Input Verification (Task [E]):**
+   * Documented the boundary performance parameters of the **XOR** module, verifying that the output indicators activate exclusively during mismatched input states ($01$ and $10$).
+
+3. **3-Variable Compound Equation Solver (Task [H]):**
+   * Built a multi-stage digital circuit layout on the canvas to solve the boolean function:  
+     $$y = ab + \bar{b}c + \bar{c}\bar{a}$$
+   * Structured a 3-stage nested loop scanning network iterating $2 \times 2 \times 2$ times to model variables $A, B$, and $C$.
+   * Connected the signal lines through inline **NOT**, **AND**, and **OR** SubVI nodes, routing the final outputs through boundary tunnels into a clean **Array Y** indicator to map the complex logic profile seamlessly.
+
+#### Verified Implementation Workspaces:
+
+| Universal Gate Verification Front Panel Dashboard | Compound 3-Variable Equation Block Diagram | Universal Library SubVI Matrix Testing |
+| :---: | :---: | :---: |
+| ![Universal Panel Dashboard](Day%2017%20Screenshots/Universal_Gates_Front_Panel.png) | ![Compound Equation Diagram](Day%2017%20Screenshots/Compound_Boolean_Circuit_BD.png) | ![Library Matrix Diagram](Day%2017%20Screenshots/Universal_Library_Testing_BD.png) |
+
