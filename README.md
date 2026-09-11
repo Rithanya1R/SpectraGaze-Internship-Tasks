@@ -627,5 +627,5 @@ This repository hosts development deliverables, environment validations, and gra
 
 | Universal Gate Verification Front Panel Dashboard | Compound 3-Variable Equation Block Diagram | Universal Library SubVI Matrix Testing |
 | :---: | :---: | :---: |
-| ![Universal Panel Dashboard](Day%2017%20Screenshots/Universal_Gates_Front_Panel.png) | ![Compound Equation Diagram](Day%2017%20Screenshots/Compound_Boolean_Circuit_BD.png) | ![Library Matrix Diagram](Day%2017%20Screenshots/Universal_Library_Testing_BD.png) |
+| ![Universal Panel Dashboard](Spectragaze_Task_Screenshots/Universal_Gates_Front_Panel.png) | ![Compound Equation Diagram](Spectragaze_Task_Screenshots/Compound_Boolean_Circuit_BD.png) | ![Library Matrix Diagram](Spectragaze_Task_Screenshots/Universal_Library_Testing_BD.png) |
 
