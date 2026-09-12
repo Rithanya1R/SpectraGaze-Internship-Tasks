@@ -610,14 +610,14 @@ This repository hosts development deliverables, environment validations, and gra
 
 #### Detailed Architectural Implementations & Technical Milestones:
 
-1. **Universal Gate Library Expansion (Task [M]):**
+1. **Universal Gate Library Expansion:**
    * Engineered four standalone custom sub-modules (**NAND**, **NOR**, **XOR**, **XNOR**) to achieve a full, production-ready digital logic component library.
    * Verified truth tables automatically via parallel evaluation loops, logging 100% data alignment against reference logic tables.
 
-2. **XOR Distinct-Input Verification (Task [E]):**
+2. **XOR Distinct-Input Verification:**
    * Documented the boundary performance parameters of the **XOR** module, verifying that the output indicators activate exclusively during mismatched input states ($01$ and $10$).
 
-3. **3-Variable Compound Equation Solver (Task [H]):**
+3. **3-Variable Compound Equation Solver :**
    * Built a multi-stage digital circuit layout on the canvas to solve the boolean function:  
      $$y = ab + \bar{b}c + \bar{c}\bar{a}$$
    * Structured a 3-stage nested loop scanning network iterating $2 \times 2 \times 2$ times to model variables $A, B$, and $C$.
@@ -629,3 +629,29 @@ This repository hosts development deliverables, environment validations, and gra
 | :---: | :---: | :---: |
 | ![Universal Panel Dashboard](Spectragaze_Task_Screenshots/Universal_Gates_Front_Panel.png) | ![Compound Equation Diagram](Spectragaze_Task_Screenshots/Compound_Boolean_Circuit_BD.png) | ![Library Matrix Diagram](Spectragaze_Task_Screenshots/Universal_Library_Testing_BD.png) |
 
+
+---
+
+## 📁 Day 18: Universal Gate Reductions & Equivalent Logic Synthesis
+
+### 🚀 NAND/NOR Universal Minimizations, Parallel Logic Busses & Truth Table Synthesis
+* **Objective:** Prove logic gate universality by building complete NOT, AND, and OR functional equivalents using exclusively NOR SubVIs and exclusively NAND SubVIs inside multi-loop testing arrays.
+
+#### Detailed Architectural Implementations & Technical Milestones:
+
+1. **NOR-Only Functional Minimizations:**
+   * Derived a baseline $2\text{-input}$ **NOR** tracking matrix via an automated nested double-loop array scanner to secure a reference truth table profile.
+   * Engineered independent functional circuits for **NOT** (tied inputs), **OR** (cascaded output inversion), and **AND** (De Morgan's parallel input inversion) using nothing but custom `Custom_NOR.vi` sub-modules.
+
+2. **NAND-Only Comparative Layout Formulations:**
+   * Engineered independent functional comparative logic strings for **NOT**, **AND** (cascaded product inversion), and **OR** (De Morgan's parallel input inversion) utilizing nothing but custom `Custom_NAND.vi` sub-modules.
+
+3. **Multi-Channel Synchronized Verification Matrices:**
+   * Structured a centralized nested double-loop diagnostic test dashboard iterating $2 \times 2$ times to pass binary input matrices ($00, 01, 10, 11$) to all 6 specialized single-gate reduction blocks in parallel.
+   * Captured data pathways via loop boundary auto-indexing tunnels to compile a matrix of 6 separate, completely verified 2D Boolean truth table displays onto the user control panel without compilation conflicts or broken wires.
+
+#### Verified Implementation Workspaces:
+
+| Master Single-Gate Reduction Front Panel Dashboard | Parallel Universal Logic Testing Block Diagram Architecture |
+| :---: | :---: |
+| ![Reduction Dashboard Front Panel](Spectragaze_Task_Screenshots/Universal_Reductions_Front_Panel.png) | ![Reduction Architecture Block Diagram](Spectragaze_Task_Screenshots/Universal_Reductions_Master_BD.png) |
